@@ -1,0 +1,37 @@
+.main
+{
+    width: 990px;
+    margin: 0 auto;
+    background: rgb(10, 10, 10);
+}
+
+@media screen and (min-width: 200px) and (max-width: 900px)
+{
+    .main
+    {
+        width: 100%;
+        margin: 10px auto;
+        background: red;
+    } 
+}
+@media screen and (min-width: 200px) and (max-width: 700px)
+{
+    .main
+    {
+        width: 100%;
+        margin: 10px auto;
+        background: green;
+    } 
+}
+@media screen and (min-width: 200px) and (max-width: 300px)
+{
+    .main
+    {
+        width: 100%;
+        margin: 10px auto;
+        background: rgb(9, 35, 182);
+    } 
+}
+
+
+
